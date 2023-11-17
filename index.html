@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="details1">
+            <p>FRONT-END</p>
+            <p id="bc">RELÓGIO</p>
+            <p id="bc">CONTAGEM </p>
+            <p id="bc">REGRESSIVA </p>
+            <p>FRON-END</p>
+        </div>
+
+        <div class="headline">
+            <h1>Contagem regressiva</h1>
+            <h3>Programa desenvolvido para trabalho <br>do módulo de front-end.</h3>
+        </div>
+
+        <div id="countdown">00:00:00</div>
+      <input type="number" id="inputTime" placeholder="Digite o tempo em segundos"> <br>
+      <button onclick="startCountdown()" id="iniciar">Iniciar</button> <br>
+
+      <div class="pausar-resetar">
+        <button onclick="pauseCountdown()" id="pausar">Pausar</button>
+        <button onclick="resetCountdown()" id="reiniciar">Reiniciar</button>
+      </div>
+
+      <div class="details2">
+        <p>DANIELA</p>
+        <p>KLINGER</p>
+        <p>MIGUEL</p>
+        <p>RINALDO</p>
+    </div>
+    </main>  
+
+    
+    
+    <script src="/script.js"></script>
+</body>
+</html>

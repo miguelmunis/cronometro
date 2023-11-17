@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --cor-preta: #000000;
+    --cor-branca: #fefefe;
+    --cor-cinza: #353535;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: block;
+    width: 100vw;
+    margin: 8% auto;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor-preta);
+    color: var(--cor-branca);
+    position: relative;
+    text-align: center;
+}
+
+.details1{
+    position: relative;
+    font-size: 0.7rem;
+    display: flex;
+    width: 80vw;    
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.details2{
+    font-size: 0.7rem;
+    display: flex;
+    width: 30vw;    
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 6rem;    
+}
+
+h1{
+    font-weight: 400;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+}
+
+h3{
+    font-weight: 200;    
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+#countdown{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: auto;
+    margin-bottom: 1.5rem;
+
+}
+
+#inputTime{
+    background-color: var(--cor-cinza);
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    width: 20%;
+    height: 2rem;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 0.1rem;
+    color: var(--cor-branca);
+}
+
+#iniciar{
+    background-color: var(--cor-branca);
+    color: var(--cor-preta);
+    margin-top: 0.6rem;
+    outline: none;
+    border: none;
+    width: 20%;
+    height: 2rem;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 0.1rem;    
+}
+
+#iniciar:hover, #reiniciar:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+.pausar-resetar{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 0.6rem;
+    outline: none;
+    border: none;
+    height: 2rem;
+    padding: 0.2rem;
+}
+
+#pausar, #reiniciar{
+    width: 45%;
+    background-color: var(--cor-cinza);
+    border: none;
+    color: var(--cor-branca);
+}
+
+#pausar:hover{
+    background-color: #3554C2;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#reiniciar:hover{
+    background-color: #D41342;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
