@@ -67,7 +67,6 @@ h3{
     font-weight: 400;
     margin: auto;
     margin-bottom: 1.5rem;
-
 }
 
 #inputTime{
@@ -115,10 +114,11 @@ h3{
 }
 
 #pausar, #reiniciar{
-    width: 45%;
+    width: 49%;
     background-color: var(--cor-cinza);
     border: none;
     color: var(--cor-branca);
+    border-radius: 0.1rem;
 }
 
 #pausar:hover{
@@ -133,3 +133,474 @@ h3{
     transition: 0.3s ease-in-out;
 }
 
+
+@media (max-width: 600px) {
+
+    #pausar, #reiniciar{
+        width: 49%;
+        background-color: var(--cor-cinza);
+        border: none;
+        color: var(--cor-branca);
+        border-radius: 0.1rem;
+    }
+
+    #inputTime{
+        margin-top: 1rem;
+        width: 60%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;
+    }
+    
+    #iniciar{
+        margin-top: 0.6rem;
+        width: 20%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;    
+    }
+
+    .pausar-resetar{
+        width: 20%;
+        margin-top: 0.6rem;
+        height: 2rem;
+        padding: 0.2rem;
+    }
+    
+  }
+
+
+  @media (max-width: 1024px){
+    #pausar, #reiniciar{
+        width: 49%;
+        background-color: var(--cor-cinza);
+        border: none;
+        color: var(--cor-branca);
+        border-radius: 0.1rem;
+    }
+
+    #inputTime{
+        margin-top: 1rem;
+        width: 60%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;
+    }
+    
+    #iniciar{
+        margin-top: 0.6rem;
+        width: 60%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;    
+    }
+
+    .pausar-resetar{
+        width: 60%;
+        margin-top: 0.6rem;
+        height: 2rem;
+        padding: 0.2rem;
+    }
+
+    h1{
+        font-weight: 400;
+        margin-top: 5rem;
+        font-size: 3.1rem;
+        margin-bottom: 0.6rem;
+    }
+    
+    h3{
+        font-weight: 300;    
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .details1{
+        font-size: 0.6rem;
+        display: flex;
+        width: 80vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .details2{
+        font-size: 0.7rem;
+        display: flex;
+        width: 70vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 6rem;    
+    }
+
+    #countdown{
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        font-weight: 500;
+    }
+  }
+
+  @media (max-width: 1366px){
+    #pausar, #reiniciar{
+        width: 49%;
+        background-color: var(--cor-cinza);
+        border: none;
+        color: var(--cor-branca);
+        border-radius: 0.1rem;
+    }
+
+    #inputTime{
+        margin-top: 1rem;
+        width: 35%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;
+    }
+    
+    #iniciar{
+        margin-top: 0.6rem;
+        width: 35%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;    
+    }
+
+    .pausar-resetar{
+        width: 35%;
+        margin-top: 0.6rem;
+        height: 2rem;
+        padding: 0.2rem;
+    }
+
+    h1{
+        font-weight: 400;
+        margin-top: 2rem;
+        font-size: 3rem;
+        margin-bottom: 0.6rem;
+    }
+    
+    h3{
+        font-weight: 300;    
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .details1{
+        font-size: 0.6rem;
+        display: flex;
+        width: 80vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 6rem;    
+
+    }
+    
+    .details2{
+        font-size: 0.7rem;
+        display: flex;
+        width: 70vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 6rem;    
+    }
+
+    #countdown{
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        font-weight: 500;
+    }
+  }
+
+  @media (max-width: 734px){
+    #pausar, #reiniciar{
+        width: 49%;
+        background-color: var(--cor-cinza);
+        border: none;
+        color: var(--cor-branca);
+        border-radius: 0.1rem;
+    }
+
+    #inputTime{
+        margin-top: 1rem;
+        width: 80%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;
+    }
+    
+    #iniciar{
+        margin-top: 0.6rem;
+        width: 80%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;    
+    }
+
+    .pausar-resetar{
+        width: 80%;
+        margin-top: 0.6rem;
+        height: 2rem;
+        padding: 0.2rem;
+    }
+
+    h1{
+        font-weight: 400;
+        margin-top: 5rem;
+        font-size: 3.1rem;
+        margin-bottom: 0.6rem;
+    }
+    
+    h3{
+        font-weight: 300;    
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .details1{
+        font-size: 0.6rem;
+        display: flex;
+        width: 80vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .details2{
+        font-size: 0.7rem;
+        display: flex;
+        width: 70vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 6rem;    
+    }
+
+    #countdown{
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        font-weight: 500;
+    }
+  }
+
+
+  @media (max-width: 733px){
+    #pausar, #reiniciar{
+        width: 49%;
+        background-color: var(--cor-cinza);
+        border: none;
+        color: var(--cor-branca);
+        border-radius: 0.1rem;
+    }
+
+    #inputTime{
+        margin-top: 1rem;
+        width: 50%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;
+    }
+    
+    #iniciar{
+        margin-top: 0.6rem;
+        width: 50%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;    
+    }
+
+    .pausar-resetar{
+        width: 50%;
+        margin-top: 0.6rem;
+        height: 2rem;
+        padding: 0.2rem;
+    }
+
+    h1{
+        font-weight: 600;
+        margin-top: 5rem;
+        font-size: 2.5rem;
+        margin-bottom: 0.6rem;
+    }
+    
+    h3{
+        font-weight: 300;    
+        font-size: 1rem;
+        line-height: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .details1{
+        font-size: 0.6rem;
+        display: flex;
+        width: 80vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .details2{
+        font-size: 0.7rem;
+        display: flex;
+        width: 70vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 6rem;    
+    }
+  }
+
+
+  @media (max-width: 460px){
+    #pausar, #reiniciar{
+        width: 49%;
+        background-color: var(--cor-cinza);
+        border: none;
+        color: var(--cor-branca);
+        border-radius: 0.1rem;
+    }
+
+    #inputTime{
+        margin-top: 1rem;
+        width: 80%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;
+    }
+    
+    #iniciar{
+        margin-top: 0.6rem;
+        width: 80%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;    
+    }
+
+    .pausar-resetar{
+        width: 80%;
+        margin-top: 0.6rem;
+        height: 2rem;
+        padding: 0.2rem;
+    }
+
+    h1{
+        font-weight: 600;
+        margin-top: 5rem;
+        font-size: 1.8rem;
+        margin-bottom: 0.6rem;
+    }
+    
+    h3{
+        font-weight: 300;    
+        font-size: 1rem;
+        line-height: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .details1{
+        font-size: 0.6rem;
+        display: flex;
+        width: 80vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .details2{
+        font-size: 0.7rem;
+        display: flex;
+        width: 70vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 6rem;    
+    }
+  }
+
+  @media (max-width: 320px) {
+
+    #pausar, #reiniciar{
+        width: 49%;
+        background-color: var(--cor-cinza);
+        border: none;
+        color: var(--cor-branca);
+        border-radius: 0.1rem;
+    }
+
+    #countdown{
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        font-weight: 500;
+    }
+
+    #inputTime{
+        margin-top: 1rem;
+        width: 80%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;
+    }
+    
+    #iniciar{
+        margin-top: 0.6rem;
+        width: 80%;
+        height: 2rem;
+        padding: 0.2rem;
+        text-align: center;
+        border-radius: 0.1rem;    
+    }
+
+    .pausar-resetar{
+        width: 80%;
+        margin-top: 0.6rem;
+        height: 2rem;
+        padding: 0.2rem;
+    }
+
+    h1{
+        font-weight: 600;
+        margin-top: 5rem;
+        font-size: 1.5rem;
+        margin-bottom: 0.6rem;
+    }
+    
+    h3{
+        font-weight: 300;    
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .details1{
+        font-size: 0.6rem;
+        display: flex;
+        width: 80vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .details2{
+        font-size: 0.7rem;
+        display: flex;
+        width: 70vw;    
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 6rem;    
+    }
+    
+  }
+
+  
