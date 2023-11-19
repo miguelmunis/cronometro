@@ -510,7 +510,7 @@ h3{
     }
 
     .details1{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
         display: flex;
         width: 80vw;    
         justify-content: space-between;
@@ -519,7 +519,7 @@ h3{
     }
     
     .details2{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         display: flex;
         width: 70vw;    
         justify-content: space-between;
@@ -584,7 +584,7 @@ h3{
     }
 
     .details1{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
         display: flex;
         width: 80vw;    
         justify-content: space-between;
@@ -593,7 +593,7 @@ h3{
     }
     
     .details2{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         display: flex;
         width: 70vw;    
         justify-content: space-between;
